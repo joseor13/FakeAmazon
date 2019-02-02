@@ -1,10 +1,158 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title> Fake Amazon</title>
-    </head>
-    <body>
-     <h2>Fake Amazon - Development - Feature one</h2>
-    </body>
+
+<head>
+    <title> Fake Amazon</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        
+        }
+        html,
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(212, 212, 66);
+        }
+
+        .header-container {
+            background-color: rgb(18, 197, 197);
+            height: 120px;
+
+        }
+
+        .top-bar {
+            background-color: green;
+            height: 60px;
+            background-image: url('./img/sm_top_bar.png');
+            background-size: cover;
+        }
+
+        .top-nav {
+            background-color: #232f3e;
+            height: 60px;
+        }
+        .top-left > img, .top-right > img {
+         height: 60px;
+        }
+
+        .top-left,
+        .top-middle,
+        .top-right {
+            height: 100%;
+        }
+
+        .top-left {
+            width: 200px;
+            float: left;
+
+        }
+
+        .top-middle {
+            width: calc(100%-330px);
+            float: left;
+            text-align: center;
+        }
+        .top-search {
+            width: 400px;
+            margin-top: 5px;
+        }
+        .top-nav-items {
+          
+          text-align: left;
+          margin-top: 18px;
+        }
+        .top-nav-items > li {
+            display: inline-block;
+        }
+        .top-nav-items > li > a {
+          font-size: 10px;
+          text-decoration: none;
+          color: white;
+          padding: 6px 8px;
+        }
+        .top-nav-items > li:hover {
+            border: 1px solid #232f3e;
+            border-radius: 5px;
+
+        }
+        .top-search-button {
+            background-color:lightsalmon;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+        }
+
+        .top-right {
+            width: 268px;
+            float: right;
+            overflow: hidden;
+
+        }
+
+        .main-body {
+            width: 85vw;
+            min-height: 650px;
+            background-color: rgb(145, 79, 79);
+            margin: 0px auto;
+        
+        }
+
+        .footer-sider-contaner {
+            width: 100vw;
+            background-color: rgb(99, 99, 236);
+            min-height: 500px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="top-bar"></div>
+        <div class="top-nav">
+            <div class="top-left">
+                <img src="./img/top_left.PNG" alt="top left">
+            </div>
+            <div class="top-middle">
+                <input type="text" class="top-sarch">
+                <button type="button" class="top-search-button">Search</button>
+                <ul class="top-nav-items">
+                    <li>
+                        <a> Your Amazon.com</a>
+                    </li>
+                    <li>
+                        <a>Today's Deals</a>
+                    </li>
+                    <li>
+                        <a>Gift Cards</a>
+                    </li>
+                    <li>
+                        <a>Whole Foods</a>
+                    </li>
+                    <li>
+                        <a>Registry</a>
+                    </li>
+                    <li>
+                        <a>Sale</a>
+                    </li>
+                    <li>
+                        <a>Help</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-right">
+                <img src="./img/top-right.PNG" alt="top right">
+            </div>
+        </div>
+    </header>
+    <div class="main-body">
+        Main body
+    </div>
+    <div class="footer-sider-contaner">
+        Footer sider container
+    </div>
+</body>
 
 </html>
