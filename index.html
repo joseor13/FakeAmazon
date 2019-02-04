@@ -47,11 +47,12 @@
         .top-left {
             width: 200px;
             float: left;
+            
 
         }
 
         .top-middle {
-            width: calc(100%-330px);
+            width: calc(100% - 450px);
             float: left;
             text-align: center;
         }
@@ -63,18 +64,19 @@
           
           text-align: left;
           margin-top: 18px;
+          margin-left: 32px;
         }
         .top-nav-items > li {
-            display: inline-block;
+            display:inline-block;
         }
         .top-nav-items > li > a {
           font-size: 10px;
           text-decoration: none;
           color: white;
-          padding: 6px 8px;
+          padding: 4px;
         }
         .top-nav-items > li:hover {
-            border: 1px solid #232f3e;
+            border: 1px solid #0c5fc5;
             border-radius: 5px;
 
         }
@@ -85,10 +87,14 @@
         }
 
         .top-right {
-            width: 268px;
+            width: 250px;
             float: right;
             overflow: hidden;
+            
 
+        }
+        .top-right > img {
+            background-position: 30px 0px;
         }
 
         .main-body {
@@ -116,7 +122,7 @@
                 <img src="./img/top_left.PNG" alt="top left">
             </div>
             <div class="top-middle">
-                <input type="text" class="top-sarch">
+                <input type="text" class="top-search">
                 <button type="button" class="top-search-button">Search</button>
                 <ul class="top-nav-items">
                     <li>
