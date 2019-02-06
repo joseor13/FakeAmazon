@@ -8,7 +8,6 @@
             margin: 0px;
             padding: 0px;
             position: relative;
-        
         }
         html,
         body {
@@ -17,29 +16,27 @@
             background-color: #EAEDED;
         }
         a {
-            list: none;
-        
+            text-decoration: none;
         }
-
         .header-container {
             background-color: rgb(18, 197, 197);
-            height: 120px;
-
+            height: 140px;
         }
-
         .top-bar {
             background-color: green;
             height: 60px;
             background-image: url('./img/sm_top_bar.png');
             background-size: cover;
         }
-
         .top-nav {
             background-color: #232f3e;
-            height: 60px;
+            height: 80px;
+        }
+        .height-100 {
+            height: 100%;
         }
         .top-left > img, .top-right > img {
-         height: 60px;
+         height: 80px;
         }
 
         .top-left,
@@ -51,9 +48,7 @@
         .top-left {
             width: 200px;
             float: left;
-            
-
-        }
+            }
 
         .top-middle {
             width: calc(100% - 450px);
@@ -61,18 +56,17 @@
             text-align: center;
         }
         .top-search {
-            width: 500px;
-            margin-top: 5px;
+            width: 700px;
+            margin-top: 7px;
         }
         .top-nav-items {
-          
           text-align: left;
-          margin-top: 15px;
-          margin-left: 32px;
+          margin-top: 25px;
+          margin-left: 50px;
         }
         .top-nav-items > li {
             display:inline-block;
-            margin-right: 5px;
+            margin-right: 2px;
         }
         .top-nav-items > li > a {
           font-size: 10px;
@@ -80,13 +74,10 @@
           color: white;
           padding: 4px;
           display: inline-block;
-    
-
         }
-        .top-nav-items > li:hover {
+        .top-nav-items > li a:hover {
             border: 1px solid #0c5fc5;
             border-radius: 2px;
-
         }
         .top-search-button {
             background-color:lightsalmon;
@@ -109,37 +100,68 @@
             background-color: rgb(145, 79, 79);
             margin: 0px auto;
         }
+        .main-top-items {
+            text-align: center;
+            margin-top: -150px;
+        }
         .main-top-container > img {
             max-width: 100%;
         }
         .main-top-items > li {
             display: inline-block;
-            background-color: blanchedalmond;
-            width: 20%;
+            background-color: rgb(248, 250, 248);
+            width: 250px;
             text-align: center;
             padding: 10px;
-            height: 190px;
+            height: 320px;
+            margin: 5px;
+        }
+        .main-top-items > li > img {
+            max-width: 100%;
         }
         .main-top-items > li:last-child {
             background-color: transparent;
         }
         .btn-sign-in{
-            background-color: yellow;
-
-        }
-        .main-top-items > li >h2 {
+            background-color: #f0c14b;
+            border-radius: 2px;
+            border-color: #a88734 #9c7e31 #846a29;
+            color: #111;
             font-size: 12px;
-            margin-bottom: 7px;
-
+            padding: 6px 10px;
+            width: 100%;
+            margin-bottom: 18px;
+            margin-top: 10px;
+            text-align: center;
         }
-        .main-top-items > li > p, .main-top-items > li  a {
-
+        .main-top-items > li > h2, .main-top-items > li > div > h2 {
+            font-size: 15px;
+            margin-bottom: 10px;
+            }
+        .main-top-items > li > p, .main-top-items > li > a, .main-top-items > li > div  {
+        font-size: 12px;
+         height: 30px
         }
+        .top-imag1 {
+            background-color: white;
+            padding: 0px 10px;
+            margin-bottom: 55px;
+            width: 250px;
+            }
+        .top-imag2 {
+            background-color: white;
+            padding: 0px 10px;
+            width: 250px
+           }
+        .top-imag2 > img {
+            max-width: 100%;
+        }
+        
         .main-bottom-container {
         list-style-type: none;
         }
         .main-bottom-container > li {
-         width: 100%;
+         width: 85%;
          background-color: white;
          margin: 10px 0px;
         }
@@ -188,7 +210,7 @@
                 </ul>
             </div>
             <div class="top-right">
-                <img src="./img/top-right.PNG" alt="top right">
+                <img src="./img/top_right.PNG" alt="top right">
             </div>
         </div>
     </header>
@@ -198,29 +220,33 @@
             <ul class="main-top-items">
                 <li>
                     <h2>Find the perfect gift</h2>
-                    <img scr="./img/sm_img1.jpg" alt="img 1">
+                    <img src="./img/sm_img1.jpg" alt="image 1">
                     <p>Send love, spread love</p>
                     <a href="#"> See all Valentine's Day Gifts </a>
                 </li>
                 <li>
-                    <h2>Find the perfect gift</h2>
-                    <img scr="./img/sm_img2.jpg" alt="img 2">
-                    <p>Send love, spread love</p>
-                    <a href="#"> See all Valentine's Day Gifts </a>
+                    <h2>Bargain finds</h2>
+                    <img src="./img/sm_img2.jpg" alt="imgage 2">
+                    <p>Device accessories</p>
+                    <a href="#"> See more</a>
                 </li>
                 <li>
-                    <h2>Find the perfect gift</h2>
-                    <img scr="" alt="img 1">
-                    <p>Send love, spread love</p>
-                    <a href="#"> See all Valentine's Day Gifts </a>
+                    <h2>Explore live plants</h2>
+                    <img src="./img/sm_img3.jpg" alt="img 3">
+                    <p>Brighten your space with live greenery.</p>
+                    <a href="#">Shop now</a>
                 </li>
                 <li>
-                    <div>
-                        <h2>Find the perfect gift</h2>
-                        <button class="btn-sign-in" type="button"> Sign in Security</button>
-                    </div>
+                    <div class="top-imag">
+                        <div class="top-imag1">
+                            <h2>Sign in for the best experience</h2>
+                            <button class="btn-sign-in" type="button"> Sign in Security</button>
+                        </div>
+                        <div class="top-imag2">
+                            <img src="./img/sm_img4.png" alt="img 4">
 
-                    <img scr="" alt="img 1">
+                        </div>
+                    </div>
 
                 </li>
             </ul>
@@ -231,10 +257,10 @@
             <img src="./img/bg_banner1.PNG" alt="banner 1">
         </li>
         <li>
-                <img src="./img/bg_banner2.PNG" alt="banner 2">
+            <img src="./img/bg_banner2.PNG" alt="banner 2">
         </li>
         <li>
-                <img src="./img/bg_banner3.PNG" alt="banner 3">
+            <img src="./img/bg_banner3.PNG" alt="banner 3">
         </li>
 
     </ul>
