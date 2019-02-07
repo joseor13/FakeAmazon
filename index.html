@@ -97,12 +97,12 @@
         .main-body {
             width: 80vw;
             min-height: 650px;
-            background-color: rgb(145, 79, 79);
+            background-color: transparent;
             margin: 0px auto;
         }
         .main-top-items {
             text-align: center;
-            margin-top: -150px;
+            margin-top: -170px;
         }
         .main-top-container > img {
             max-width: 100%;
@@ -115,6 +115,13 @@
             padding: 10px;
             height: 320px;
             margin: 5px;
+        }
+        .top-imag {
+            background-color:  white;
+            display: inline-block;
+            padding: 8px 55px;
+            margin-bottom: 25px;
+
         }
         .main-top-items > li > img {
             max-width: 100%;
@@ -134,36 +141,27 @@
             margin-top: 10px;
             text-align: center;
         }
-        .main-top-items > li > h2, .main-top-items > li > div > h2 {
+        .main-top-items > li > img, .main-bottom-container > li > img {
+            max-width: 100%;
+        }
+        .main-top-items > li > h2, .main-top-items > li > span > h2 {
             font-size: 15px;
             margin-bottom: 10px;
             }
-        .main-top-items > li > p, .main-top-items > li > a, .main-top-items > li > div  {
+        .main-top-items > li > p, .main-top-items > li > a  {
         font-size: 12px;
          height: 30px
         }
-        .top-imag1 {
-            background-color: white;
-            padding: 0px 10px;
-            margin-bottom: 55px;
-            width: 250px;
-            }
-        .top-imag2 {
-            background-color: white;
-            padding: 0px 10px;
-            width: 250px
-           }
-        .top-imag2 > img {
-            max-width: 100%;
-        }
+       
         
         .main-bottom-container {
         list-style-type: none;
         }
         .main-bottom-container > li {
-         width: 85%;
+         width: 100%;
          background-color: white;
          margin: 10px 0px;
+         padding: 10px;
         }
 
         .footer-sider-contaner {
@@ -237,16 +235,16 @@
                     <a href="#">Shop now</a>
                 </li>
                 <li>
-                    <div class="top-imag">
-                        <div class="top-imag1">
+                    <span class="top-imag">
+                        
                             <h2>Sign in for the best experience</h2>
                             <button class="btn-sign-in" type="button"> Sign in Security</button>
-                        </div>
-                        <div class="top-imag2">
+                        
+                        </span>
                             <img src="./img/sm_img4.png" alt="img 4">
 
-                        </div>
-                    </div>
+                        
+                    
 
                 </li>
             </ul>
