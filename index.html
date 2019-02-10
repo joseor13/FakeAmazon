@@ -9,46 +9,57 @@
             padding: 0px;
             position: relative;
         }
+
         html,
         body {
             height: 100vh;
             width: 100vw;
             background-color: #EAEDED;
         }
+
         a {
             text-decoration: none;
         }
+
         h3 {
             color: white;
-            font-size: 10px;
+            font-size: 12px;
             margin-bottom: 5px;
-            margin-left: 7px;
+            margin-left: 20px;
         }
-            h4 {
+
+        h4 {
             color: white;
             font-size: 8px;
             margin-bottom: 5px;
             margin-left: 7px;
         }
+
         .header-container {
             background-color: rgb(18, 197, 197);
-            height: 140px;
+            height: 165px;
         }
+
         .top-bar {
             background-color: green;
-            height: 60px;
+            height: 50px;
             background-image: url('./img/sm_top_bar.png');
             background-size: cover;
+            overflow: hidden;
         }
+
         .top-nav {
             background-color: #232f3e;
-            height: 80px;
+            height: 115px;
         }
+
         .height-100 {
             height: 100%;
         }
-        .top-left > img, .top-right > img {
-         height: 80px;
+
+        .top-left>img,
+        .top-right>img {
+            height: 100px;
         }
 
         .top-left,
@@ -60,88 +71,118 @@
         .top-left {
             width: 200px;
             float: left;
-            }
+        }
 
         .top-middle {
-            width: calc(100% - 450px);
+            width: calc(100% - 620px);
             float: left;
             text-align: center;
         }
-        .top-search {
-            width: 700px;
+        .top-search-all {
+            width: 35px;
             margin-top: 7px;
-        }
-        .top-nav-items {
-          text-align: left;
-          margin-top: 25px;
-          margin-left: 50px;
-        }
-        .top-nav-items > li {
-            display:inline-block;
-            margin-right: 2px;
-        }
-        .top-nav-items > li > a {
-          font-size: 10px;
-          text-decoration: none;
-          color: white;
-          padding: 4px;
-          display: inline-block;
-        }
-        .top-nav-items > li a:hover {
-            border: 1px solid #0c5fc5;
-            border-radius: 2px;
-        }
-        .top-search-button {
-            background-color:lightsalmon;
+            margin-left:230px;
+            height: 35px;
+            text-align: center;
+            float: left;
             border-top-right-radius: 2px;
             border-bottom-right-radius: 2px;
         }
 
+        .top-search {
+            width: 760px;
+            margin-top: 7px;
+            height: 30px;
+        }
+
+        .top-nav-items {
+            text-align: center;
+            margin-top: 35px;
+            margin-left: 70px;
+        }
+
+        .top-nav-items>li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .top-nav-items>li>a {
+            font-size: 10px;
+            text-decoration: none;
+            color: white;
+            padding: 8px;
+            display: block;
+        }
+
+        .top-nav-items>li>a:hover {
+            border: 1px solid #0c5fc5;
+            border-radius: 2px;
+        }
+
+        .top-search-button {
+            background-color: lightsalmon;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+            height: 35px;
+            margin-top: 7px;
+            width: 50px;
+        }
+
         .top-right {
-            width: 250px;
+            width: 420px;
             float: right;
             overflow: hidden;
-            }
-        .top-right > img {
+        }
+
+        .top-right>img {
             background-position: 30px 0px;
         }
 
         .main-body {
             width: 80vw;
-            min-height: 650px;
-            background-color: transparent;
+            min-height: 600px;
+            background-image: url('./img/Sm_Gradient.gif');
             margin: 0px auto;
         }
+
         .main-top-items {
             text-align: center;
-            margin-top: -170px;
+            margin-top: -300px;
         }
-        .main-top-container > img {
+
+        .main-top-container>img {
             max-width: 100%;
+            
         }
-        .main-top-items > li {
+
+        .main-top-items>li {
             display: inline-block;
             background-color: rgb(248, 250, 248);
-            width: 250px;
+            width: 20%;
             text-align: center;
             padding: 10px;
-            height: 320px;
+            height: 340px;
             margin: 5px;
         }
+
         .top-imag {
-            background-color:  white;
+            background-color: white;
             display: inline-block;
             padding: 8px 55px;
             margin-bottom: 25px;
 
+
         }
-        .main-top-items > li > img {
+
+        .main-top-items>li>img {
             max-width: 100%;
         }
-        .main-top-items > li:last-child {
+
+        .main-top-items>li:last-child {
             background-color: transparent;
         }
-        .btn-sign-in{
+
+        .btn-sign-in {
             background-color: #f0c14b;
             border-radius: 2px;
             border-color: #a88734 #9c7e31 #846a29;
@@ -153,97 +194,125 @@
             margin-top: 10px;
             text-align: center;
         }
-        .main-top-items > li > img, .main-bottom-container > li > img {
+
+        .main-top-items>li>img,
+        .main-bottom-container>li>img {
             max-width: 100%;
         }
-        .main-top-items > li > h2, .main-top-items > li > span > h2 {
+
+        .main-top-items>li>h2,
+        .main-top-items>li>span>h2 {
             font-size: 15px;
             margin-bottom: 10px;
-            }
-        .main-top-items > li > p, .main-top-items > li > a  {
-        font-size: 12px;
-         height: 30px
         }
-       
-        
+
+        .main-top-items>li>p,
+        .main-top-items>li>a {
+            font-size: 12px;
+            height: 30px
+        }
         .main-bottom-container {
-        list-style-type: none;
+            list-style-type: none;
         }
-        .main-bottom-container > li {
-         width: 100%;
-         background-color: white;
-         margin: 10px 0px;
-         padding: 10px;
+
+        .main-bottom-container>li {
+            width: 100%;
+            background-color: transparent;
+            margin: 10px 0px;
+            padding: 0px;
+
         }
 
         .footer-sider-contaner {
             width: 100vw;
-            background-color: rgb(99, 99, 236);
+            background-color: #232F3E;
             min-height: 500px;
         }
+
         .footer-top-section {
             display: block;
-           text-align: center;
-           color: white;
-           padding: 15px 0;
-          line-height: 19px;
-          font-size: 13px;
-          margin-bottom: 40px;
-          background-color: #022544;
+            text-align: center;
+            color:#fff ;
+            padding: 5px 0;
+            line-height: 19px;
+            font-size: 13px;
+            margin-bottom: 40px;
+            background-color: #022544;
         }
+
         .footer-center-section {
-         background-color: #041b30;
-         width:100%;
-        color: white;
-        
-        overflow: bottom;
-        display: block;
+            background-color: #232F3E;
+            width: 100%;
+            color: white;
+           overflow: bottom;
+            display: block;
         }
+
         .pull-left {
             float: left;
         }
-        .pull-left > ul {
+
+        .pull-left>ul {
             list-style-type: none;
         }
-        .pull-left > ul > a {
-        
-            font-size: 8px;
-            margin-left: 7px;
+
+        .pull-left>ul>li>a {
+            font-size: 10px;
+            margin-left: 20px;
+            color: white;
         }
+
         .footer-bottom-container {
             width: 100%;
         }
-        .footer-center-squeeze, .footer-bottom-squeeze{
-            width: 100;
+
+        .footer-center-squeeze,
+        .footer-bottom-squeeze {
+            width: 80%;
             margin: 0 auto;
             overflow: auto;
         }
+
         .footer-center-squeeze-bottom {
-            border-top: 1px solid#3a4553;
+            border-top: 1px solid #232F3E;
             margin-top: 40px;
-    
+
         }
-       
+
         .footer-25 {
-            width: 25%
+            width: 25%;
         }
+
         .footer-squeeze-button-items {
             list-style-type: none;
             text-align: center;
+            margin: 15px auto;
         }
-        .footer-squeeze-bottom-items > li {
 
+        .footer-squeeze-bottom-items>li {
+            display: inline-block;
+            margin-right: 10px;
         }
-    .footer-logo {
-        width: 50px;
-        margin-bottom: -19px;
-    }
-    .footer-bottom-container {
+        .footer-squeeze-bottom-items>li:first-child {
+            margin-right: 30px;
+        }
+         .btn-footer {
+         color: #fff;
+         background-color: transparent;
+         font-size: 10px;
+         padding: 3px;
+         border-radius: 3px;
+        }
+        .footer-logo {
+            width: 70px;
+            margin-bottom: -19px;
+        }
 
-    }
-    .footer-16 {
+        .footer-bottom-container {
+            width: 100%;
+        }
 
-    }
+        .footer-16 {}
     </style>
 </head>
 
@@ -257,6 +326,7 @@
             <div class="top-middle">
                 <input type="text" class="top-search">
                 <button type="button" class="top-search-button">Search</button>
+                <button type="button" class="top-search-all">All</button>
                 <ul class="top-nav-items">
                     <li>
                         <a> Your Amazon.com</a>
@@ -298,44 +368,39 @@
                 </li>
                 <li>
                     <h2>Bargain finds</h2>
-                    <img src="./img/sm_img2.jpg" alt="imgage 2">
+                    <img src="./img/sm_img2.jpg" alt="image 2">
                     <p>Device accessories</p>
                     <a href="#"> See more</a>
                 </li>
                 <li>
                     <h2>Explore live plants</h2>
-                    <img src="./img/sm_img3.jpg" alt="img 3">
+                    <img src="./img/sm_img3.jpg" alt="image 3">
                     <p>Brighten your space with live greenery.</p>
                     <a href="#">Shop now</a>
                 </li>
                 <li>
                     <span class="top-imag">
-
                         <h2>Sign in for the best experience</h2>
-                        <button class="btn-sign-in" type="button"> Sign in Security</button>
-
+                        <button class="btn-sign-in" type="button">Sign in Security</button>
                     </span>
                     <img src="./img/sm_img4.png" alt="img 4">
-
-
-
-
                 </li>
             </ul>
         </div>
-    </div>
-    <ul class="main-bottom-container">
-        <li>
-            <img src="./img/bg_banner1.PNG" alt="banner 1">
-        </li>
-        <li>
-            <img src="./img/bg_banner2.PNG" alt="banner 2">
-        </li>
-        <li>
-            <img src="./img/bg_banner3.PNG" alt="banner 3">
-        </li>
+        <ul class="main-bottom-container">
+            <li>
+                <img src="./img/bg_banner1.PNG" alt="banner 1">
+            </li>
+            <li>
+                <img src="./img/bg_banner2.PNG" alt="banner 2">
+            </li>
+            <li>
+                <img src="./img/bg_banner3.PNG" alt="banner 3">
+            </li>
 
-    </ul>
+        </ul>
+    </div>
+
     <div class="footer-sider-contaner">
         <div class="footer-top-section">
             Back to top
@@ -355,7 +420,78 @@
                     </ul>
                 </div>
                 <div class="pull-left footer-25">
-                    <h3> Get Money with Us</h3>
+                    <h3>Make Money with Us</h3>
+                    <ul>
+                        <li> <a href="#">Sell on Amazon</a></li>
+                        <li> <a href="#">Sell Under Private Brands</a></li>
+                        <li> <a href="#">Sell on Amazon Handmade</a></li>
+                        <li> <a href="#">Sell Your Services on Amazon</a></li>
+                        <li> <a href="#">Sell on AMazon Business</a></li>
+                        <li> <a href="#">Sell Your Apps on Amazon</a></li>
+                        <li> <a href="#">Become an Affiliate</a></li>
+                        <li> <a href="#">Advertise Your Products</a></li>
+                        <li> <a href="#">Self-Publish with Us</a></li>
+                        <li> <a href="#">>See all</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left footer-25">
+                    <h3>Amazon Payment Products</h3>
+                    <ul>
+                        <li> <a href="#">Amazon Rewards Visa Signature Cards</a></li>
+                        <li> <a href="#">Amazon.com Store Card</a></li>
+                        <li> <a href="#">Amazon Business Card</a></li>
+                        <li> <a href="#">Amazon.com Corporate Credit Line</a></li>
+                        <li> <a href="#">Shop with Points</a></li>
+                        <li> <a href="#">Crdit Card Marketplace</a></li>
+                        <li> <a href="#">Reload Your Balance</a></li>
+                        <li> <a href="#">Amazon Currency Conventer</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left footer-25">
+                    <h3>Let Us Help You</h3>
+                    <ul>
+                        <li> <a href="#">Your Account</a></li>
+                        <li> <a href="#">Your Orders</a></li>
+                        <li> <a href="#">Shopping Rates & Policies</a></li>
+                        <li> <a href="#">Amazon Prime</a></li>
+                        <li> <a href="#">Returns & Replacements</a></li>
+                        <li> <a href="#">Manage Your Content and Devices</a></li>
+                        <li> <a href="#">Amazon Assistant</a></li>
+                        <li> <a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-center-squeeze-bottom">
+                <ul class="footer-squeeze-bottom-items">
+                    <li>
+                        <img class="footer-logo" src="./img/sm_Amazon_logo.PNG" alt="amazon logo">
+                    </li>
+                    <li>
+                        <button type="button" class="btn-footer">English</botton>
+                    </li>
+                    <li>
+                        <button type="button" class="btn-footer">United States</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom-container">
+            <div class="footer-bottom-squeeze">
+                <div class="pull-left footer-16">
+                    <h4> Get to know us</h6>
+                        <ul>
+                            <li> <a href="#"> Careers</a></li>
+                            <li> <a href="#"> Blog</a></li>
+                            <li> <a href="#"> About Amazon</a></li>
+                            <li> <a href="#"> Press Center</a></li>
+                            <li> <a href="#"> Investor Relations</a></li>
+                            <li> <a href="#"> Amazon Devices</a></li>
+
+                        </ul>
+                </div>
+                <div class="pull-left footer-16">
+                    <h4> Get Money with Us</h4>
                     <ul>
                         <li> <a href="#">Sell on Amazon</a></li>
                         <li> <a href="#">Sell Under Private Brands</a></li>
@@ -366,8 +502,8 @@
                         <li> <a href="#"> Careers</a></li>
                     </ul>
                 </div>
-                <div class="pull-left footer-25">
-                    <h3>Amazon Payment Products</h3>
+                <div class="pull-left footer-16">
+                    <h4>Amazon Payment Products</h4>
                     <ul>
                         <li> <a href="#"> Careers</a></li>
                         <li> <a href="#"> Careers</a></li>
@@ -378,8 +514,44 @@
                         <li> <a href="#"> Careers</a></li>
                     </ul>
                 </div>
-                <div class="pull-left footer-25">
-                    <h3>Let Us Help You</h3>
+                <div class="pull-left footer-14">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                    </ul>
+                </div>
+                <div class="pull-left footer-14">
+                    <h4>Let Us Help You</h4>
                     <ul>
                         <li> <a href="#"> Careers</a></li>
                         <li> <a href="#"> Careers</a></li>
@@ -391,108 +563,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-center-squeeze-bottom">
-                <ul class="footer-squeeze-bottom-items">
-                    <li>
-                        <img class="footer-logo" src="./img/sm_Amazon_logo.PNG" alt="amazon logo">
-                    </li>
-                    <li>
-                        <button type="button" class="btn-button">English</botton>
-                    </li>
-                    <li>
-                        <button type="button" class="btn-button">United States</button>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="footer-bottom-container">
-                <div class="footer-bottom-squeeze">
-                        <div class="pull-left footer-16">
-                            <h4> Get to know us</h6>
-                            <ul>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Blog</a></li>
-                                <li> <a href="#"> About Amazon</a></li>
-                                <li> <a href="#"> Press Center</a></li>
-                                <li> <a href="#"> Investor Relations</a></li>
-                                <li> <a href="#"> Amazon Devices</a></li>
-        
-                            </ul>
-                        </div>
-                        <div class="pull-left footer-16">
-                            <h4> Get Money with Us</h4>
-                            <ul>
-                                <li> <a href="#">Sell on Amazon</a></li>
-                                <li> <a href="#">Sell Under Private Brands</a></li>
-                                <li> <a href="#"> Sell on Amazon Handmade</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="pull-left footer-16">
-                            <h4>Amazon Payment Products</h4>
-                            <ul>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="pull-left footer-14">
-                            <h4>Let Us Help You</h4>
-                            <ul>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                                <li> <a href="#"> Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="pull-left footer-14">
-                                <h4>Let Us Help You</h4>
-                                <ul>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                    <li> <a href="#"> Careers</a></li>
-                                </ul>
-                            </div>
-                            <div class="pull-left footer-14">
-                                    <h4>Let Us Help You</h4>
-                                    <ul>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                        <li> <a href="#"> Careers</a></li>
-                                    </ul>
-                                </div>
-                                <div class="pull-left footer-14">
-                                        <h4>Let Us Help You</h4>
-                                        <ul>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                            <li> <a href="#"> Careers</a></li>
-                                        </ul>
-                                    </div>
-                    </div>
         </div>
 
     </div>
