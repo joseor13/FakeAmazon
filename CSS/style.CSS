@@ -26,8 +26,7 @@ h3 {
 
 h4 {
     color: white;
-    font-size: 8px;
-    margin-bottom: 5px;
+    font-size: 10px;
     margin-left: 110px;
 }
 
@@ -146,7 +145,7 @@ h4 {
     margin-top: -300px;
 }
 
-.main-top-container>img {
+.main-top-container > img {
     max-width: 100%;
     
 }
@@ -160,12 +159,14 @@ h4 {
     height: 340px;
     margin: 5px;
 }
-
+.last-sign {
+    margin-bottom: -30px;
+}
 .top-imag {
     background-color: white;
     display: inline-block;
     padding: 8px 55px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 
 
 }
@@ -267,12 +268,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd1d1', end
     font-size: 10px;
     margin-left: 110px;
     color: white;
+    overflow: hidden;
 }
 
 .footer-center-squeeze,
 .footer-bottom-squeeze {
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
     overflow: auto;
 }
 
@@ -301,6 +303,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd1d1', end
 }
 .footer-squeeze-bottom-items>li:first-child {
     margin-right: 50px;
+    margin-left: 50px;
 }
  .btn-footer {
  color: #fff;
@@ -316,20 +319,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd1d1', end
 
 .footer-bottom-section {
     width: 100%;
+    max-height: 500px;
     color: white;
-    overflow: auto;
+    overflow: hidden;
     background-color: #131A22;
-    padding: 30px 0;
-    margin: 30px 0 0;
+    padding: 30px 0px;
+    margin: 30px 0px 0px;
 }
 
 .footer-16 > ul > li > a {
-    font-size: 5px;
-    flex-wrap: initial;
+    font-size: 8px;
+    text-align: left;
+    margin-left: 110px;
+    
 }
 .footer-copyright {
 
-    font-size: 10px;
+    font-size: 12px;
     color: white;
     padding: 10px 5px;
     background-color: #131A22;
